@@ -1,0 +1,10 @@
+{
+  "name": "next-dark",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "Next Dark UI theme",
+  "repository": "https://github.com/casesandberg/next-dark",
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}
