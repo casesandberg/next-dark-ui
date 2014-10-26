@@ -1,0 +1,48 @@
+.mocha-test-runner {
+    position: absolute;
+    bottom: 19px;
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    min-height: 140px;
+
+    .alert-danger{
+        background-color: rgba(219, 76, 67, .95);
+        color: #fff;
+    }
+
+    .alert-success{
+        display: none;
+    }
+
+    .panel{
+        background-color: transparent;
+        overflow-y: scroll;
+
+        .panel-body{
+            overflow-y: initial;
+        }
+    }
+
+    .results{
+        background: rgba(34, 34, 34, 0.95);
+        padding-top: 20px;
+        border-radius: 0;
+
+        span[style="color:#ff7e76"]{
+            color: #db4c43!important;
+        }
+
+        span[style="background-color:#ff7e76"]{
+            background-color: #db4c43!important;
+        }
+
+        span[style="color:#a4f87b"]{
+            color: #46C34D!important;
+        }
+
+        span[style="background-color:#a4f87b"]{
+            background-color: #46C34D!important;
+        }
+    }
+}
