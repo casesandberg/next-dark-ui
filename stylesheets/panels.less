@@ -2,7 +2,7 @@
 @import "ui-variables";
 @import "buttons";
 
-.tool-panel {
+atom-panel {
     .text(normal);
     position: relative;
 }
@@ -32,15 +32,25 @@
 }
 
 // footer color
-.tool-panel.panel-bottom{
+atom-panel{
+  .bottom{
     box-shadow: none;
     border: none;
     color: #555;
+
+    .find-and-replace{
+      border-bottom: 1px solid #333;
+    }
+  }
 }
 .pull-right a{
     color: #555;
 }
 
-.panel-bottom.find-and-replace{
-    border-bottom: 1px solid #333;
+.tool-panel, atom-panel.top, atom-panel.bottom, atom-panel.left, atom-panel.right{
+    background-color: transparent;
+}
+
+.settings-view .available-package-view, .settings-view .config-menu, .deprecation-cop.pane-item.native-key-bindings{
+  background-color: @foreground!important
 }

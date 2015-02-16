@@ -1,0 +1,33 @@
+@import "ui-variables";
+
+.settings-view .config-menu{
+  border-right: 1px solid @background;
+}
+
+.settings-view div > section.section.settings-panel, .settings-view .section{
+  border-top: 1px solid @background;
+}
+
+.settings-view select.form-control{
+  background: @background;
+  color: #666;
+  border-color: @background;
+  -webkit-transition: 200ms all linear;
+}
+
+.settings-view select.form-control:hover, .settings-view select.form-control:focus{
+  background: @background;
+  color: #fff;
+  cursor: pointer;
+}
+
+.settings-view .available-package-view{
+  border-color: @background;
+}
+
+.settings-view .packages .search-container{
+  margin-top: 15px;
+  padding-top: 0;
+  border: 1px solid @background;
+  border-radius: 4px;
+}

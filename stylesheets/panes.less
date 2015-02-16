@@ -1,21 +1,21 @@
 @import "ui-mixins";
 @import "ui-variables";
 
-.panes {
+atom-pane-container {
 
-    .pane .item-views .pane-item{
+    atom-pane .item-views .pane-item{
         background: @foreground;
     }
 
-    .pane-row > * {
+    atom-pane-axis.horizontal > * {
         border-right: 1px solid @background;
 
-        &:nth-child(1n + 2) .editor{
+        &:nth-child(1n + 2) atom-text-editor{
             border-radius: 0;
         }
     }
 
-    .pane-column > * {
+    atom-pane-axis.vertical > * {
 
         &:last-child {
             border-bottom: none;
